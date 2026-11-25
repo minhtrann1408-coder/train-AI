@@ -9,7 +9,7 @@ Turns uploaded course material (lecture slides, textbook chapters, question bank
 
 ## Language rules
 
-- Chat replies: the user's language (often Vietnamese + English).
+- Chat replies: the user's language.
 - **Everything inside the study guide is written in English**: concepts, questions, options, explanations, model answers, marking points. Questions from Vietnamese or other-language sources are translated to English.
 - **Vietnamese is a toggle, not always on.** Every piece of content also gets a Vietnamese version (explanation of the concept / question / answer in Vietnamese, plus inline Vietnamese glosses for technical terms, e.g. elasticity (độ co giãn)). A global "🇻🇳 Giải nghĩa tiếng Việt: ON/OFF" switch shows or hides all Vietnamese. Default OFF. Each question card also has its own small "VI" button to reveal Vietnamese for just that question.
 

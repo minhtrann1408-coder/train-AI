@@ -44,7 +44,7 @@ Put a route on your own server that takes no parameters:
 ```js
 // GET /shot  ->  302 to the full render URL
 const SITE = 'https://your-site.vercel.app/';
-const DEFAULT_TZ = 'Asia/Ho_Chi_Minh';       // the user's zone, not the server's
+const DEFAULT_TZ = 'UTC';                      // the user's zone, not the server's
 
 function todayIn(tz) {                        // en-CA formats as YYYY-MM-DD
   return new Intl.DateTimeFormat('en-CA', {

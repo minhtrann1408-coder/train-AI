@@ -39,7 +39,7 @@ This bundle merges 15 former design skills. **This file holds the final decision
 - **Inter is not a default.** Use it only for dashboards, accessibility-first or public-sector briefs, a neutral "Linear-style" ask, or when the project already uses it.
 - **Serif** only for editorial, luxury or heritage briefs. Fraunces and Instrument Serif are allowed, but never use the same serif in two projects in a row.
 - At most 2 families plus an optional mono. Emphasis uses the same family's weight or italic.
-- **Vietnamese:** the user's UIs are Vietnamese-first. Before choosing a font, confirm it has the Vietnamese subset: test the string `Tiếng Việt: ẩ ặ ữ ỡ Đ` and check `subset=vietnamese` on Google Fonts. Be Vietnam Pro is a known-good choice. Many Fontshare faces (Satoshi, Cabinet Grotesk, Clash Display, General Sans) lack Vietnamese glyphs, so use them for Latin-only display text at most.
+- **Vietnamese:** for any UI with Vietnamese text, before choosing a font, confirm it has the Vietnamese subset: test the string `Tiếng Việt: ẩ ặ ữ ỡ Đ` and check `subset=vietnamese` on Google Fonts. Be Vietnam Pro is a known-good choice. Many Fontshare faces (Satoshi, Cabinet Grotesk, Clash Display, General Sans) lack Vietnamese glyphs, so use them for Latin-only display text at most.
 - Hero H1: 2 lines max on desktop (3 is the hard ceiling). Body text at least 16px, measure 45–75ch, line-height 1.5–1.65. Display tracking −0.02 to −0.04em, line-height 1.05–1.2. Brutalist mode may go to 0.9.
 - Sentence case for UI text. Use all-caps only for short labels, with 0.06–0.12em tracking.
 - Load fonts with next/font or self-hosted @font-face (`font-display: swap`). A Google Fonts `<link>` is fine for single-file HTML or artifacts.
